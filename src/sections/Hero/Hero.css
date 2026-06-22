@@ -1,0 +1,51 @@
+.hero-container {
+    width: 100vw;
+
+}
+
+.hero-background-img {
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    z-index: -1;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+    padding: 1.5em;
+    font-family: 'Fraunces', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.hero-arrow {
+    width: auto;
+    height: 100%;
+
+    animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    
+}
