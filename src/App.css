@@ -1,3 +1,9 @@
-* {
-  /* border: 1px solid; */
+.master-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero,
+.agencyFeaturesGrid {
+  position: relative;
 }
