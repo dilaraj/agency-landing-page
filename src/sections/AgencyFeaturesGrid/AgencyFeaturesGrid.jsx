@@ -17,7 +17,7 @@ import mobileOrange from '../../assets/images/mobile/image-photography.jpg'
 
 export default function AgencyFeaturesGrid() {
     return (
-        <div className="agency-features-grid-container">
+        <div className="agency-features-grid-container" id='target-section'>
             <div className="cell cell1">
                 <ImageCell 
                     desktopImg={desktopEgg}

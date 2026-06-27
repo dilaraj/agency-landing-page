@@ -17,7 +17,9 @@ export default function Hero() {
             
             <div className="hero-content">
                 <span>we are creatives</span>
-                <img src={heroArrow} alt="Hero Down" className="hero-arrow" />
+                <a href="#target-section" className='scroll-btn'>
+                    <img src={heroArrow} alt="Hero Down" className="hero-arrow" />
+                </a>
             </div>
         </div>
     )
