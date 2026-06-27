@@ -1,0 +1,43 @@
+.testimonial-component-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 0 2.75em;
+}
+
+.testimonial-image {
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+}
+
+.testimonial-content {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: hsl(213, 9%, 39%);
+    line-height: 25px;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.author {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+    font-size: 1rem;
+}
+
+.role {
+    font-family: 'Barlow', sans-serif;
+    color: hsl(210, 4%, 67%);
+    font-size: 0.75rem;
+    font-weight: 600;
+}
