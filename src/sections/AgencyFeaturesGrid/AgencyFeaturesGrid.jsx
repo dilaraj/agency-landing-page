@@ -3,12 +3,17 @@ import './AgencyFeaturesGrid.css'
 // Components
 import ImageCell from '../../components/AgencyFeatureCell/ImageCell/ImageCell'
 import InfoCell from '../../components/AgencyFeatureCell/InfoCell/InfoCell'
+import ImageInfoCell from '../../components/AgencyFeatureCell/ImageInfoCell/ImageInfoCell'
 
 // Images
 import desktopEgg from '../../assets/images/desktop/image-transform.jpg'
 import mobileEgg from '../../assets/images/mobile/image-transform.jpg'
 import desktopCup from '../../assets/images/desktop/image-stand-out.jpg'
 import mobileCup from '../../assets/images/mobile/image-stand-out.jpg'
+import desktopCherry from '../../assets/images/desktop/image-graphic-design.jpg'
+import mobileCherry from '../../assets/images/mobile/image-graphic-design.jpg'
+import desktopOrange from '../../assets/images/desktop/image-photography.jpg'
+import mobileOrange from '../../assets/images/mobile/image-photography.jpg'
 
 export default function AgencyFeaturesGrid() {
     return (
@@ -26,19 +31,35 @@ export default function AgencyFeaturesGrid() {
                 />
             </div>
             <div className="cell cell3">
-            <ImageCell 
+                <ImageCell 
                     desktopImg={desktopCup}
                     mobileImg={mobileCup}
                 />
             </div>
             <div className="cell cell4">
-            <InfoCell 
+                <InfoCell 
                     heading={'Stand out to the right audience'}
                     bodyText={"Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places."} 
                 />
             </div>
-            <div className="cell cell5">cell5</div>
-            <div className="ccell ell6">cell6</div>
+            <div className="cell cell5">
+                <ImageInfoCell 
+                    desktopImg={desktopCherry}
+                    mobileImg={mobileCherry}
+                    infoHeading={'Graphic Design'}
+                    textColor={'hsl(167, 40%, 24%)'}
+                    infoBody={"Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention"}
+                />
+            </div>
+            <div className="ccell ell6">
+                <ImageInfoCell 
+                    desktopImg={desktopOrange}
+                    mobileImg={mobileOrange}
+                    infoHeading={'Photography'}
+                    textColor={'hsl(198, 62%, 26%)'}
+                    infoBody={"Increase your credibility by getting the most stunning, high-quality photos that improve your business image."}
+                />
+            </div>
         </div>
     )
 }

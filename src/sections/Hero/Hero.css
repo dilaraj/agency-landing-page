@@ -48,5 +48,7 @@
 
 
 @media (min-width: 768px) {
-    
+    .hero-container {
+        height: 100vh;
+    }
 }

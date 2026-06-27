@@ -53,11 +53,13 @@
     background-color: hsl(51, 100%, 49%);
     opacity: 0.3;
 }
-
 @media (min-width: 758px) {
     .info-cell-container {
         align-items: start;
-        padding: 4.75em;
+        height: 100%;
+        box-sizing: border-box;
+
+        padding: 8em;
     }
 
     .heading,
