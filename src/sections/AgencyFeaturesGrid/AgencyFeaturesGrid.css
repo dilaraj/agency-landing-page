@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+.cell {
+    /* height: 22.75em; */
+}
+
 @media (min-width: 768px) {
     .agency-features-grid-container {
         display: grid;
