@@ -4,6 +4,7 @@ import './App.css'
 import Hero from './sections/Hero/Hero'
 import AgencyFeaturesGrid from './sections/AgencyFeaturesGrid/AgencyFeaturesGrid'
 import Testimonials from './sections/Testimonials/Testimonials'
+import ImageGrid from './sections/ImageGrid/ImageGrid'
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <div className="hero"><Hero /></div>
       <div className="agencyFeaturesGrid"><AgencyFeaturesGrid /></div>
       <div className="testimonials"><Testimonials /></div>
+      <div className="imageGrid"><ImageGrid /></div>
     </div>
   )
 }

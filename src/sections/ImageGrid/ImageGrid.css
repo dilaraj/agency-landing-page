@@ -1,0 +1,17 @@
+.image-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid-images {
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .image-grid-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
